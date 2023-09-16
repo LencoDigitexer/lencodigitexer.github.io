@@ -10,15 +10,23 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/LencoDigitexer"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "vk"
+name = "VK"
+url = "https://vk.com/lencodigitexer"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-vk"
+
+[[social]]
+identifier = "tg"
+name = "Telegram"
+url = "https://lencodigitexer.t.me"
+
+[social.params]
+icon = "brand-telegram"
