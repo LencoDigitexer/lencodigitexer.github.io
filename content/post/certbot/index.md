@@ -1,6 +1,6 @@
 ---
 title: "Certbot и настройка HTTPS/SSL"
-date: 2023-09-18
+date: 2023-09-20
 image: cover.png
 description: Как сделать SSL на сайт? Создание Let's Encrypt сертификата
 categories:
