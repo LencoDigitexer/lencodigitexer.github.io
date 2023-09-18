@@ -1,5 +1,6 @@
 ---
 title: "Поиск"
+description: "Поиск"
 slug: "search"
 layout: "search"
 outputs:
@@ -11,3 +12,5 @@ menu:
         params: 
             icon: search
 ---
+
+> Это Поиск
