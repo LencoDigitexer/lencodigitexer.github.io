@@ -42,93 +42,94 @@ GA(good afternoon), дорогие читатели уютного блога, w
 
 2) Устанавливаю rtl-sdr драйвер
 
-> sudo apt-get install libusb-1.0-0-dev git cmake
-
-> git clone git://git.osmocom.org/rtl-sdr.git cd rtl-sdr/
-
-> mkdir build
-
->  cd build 
-
-> cmake ../ -DINSTALL_UDEV_RULES=ON 
-
-> make
-
-> sudo make install 
-
-> sudo cp ../rtl-sdr.rules /etc/udev/rules.d/ 
-
-> sudo ldconfig
+```bash
+sudo apt-get install libusb-1.0-0-dev git cmake
+git clone git://git.osmocom.org/rtl-sdr.git cd rtl-sdr/
+mkdir build
+cd build 
+cmake ../ -DINSTALL_UDEV_RULES=ON 
+make
+sudo make install 
+sudo cp ../rtl-sdr.rules /etc/udev/rules.d/ 
+sudo ldconfig
+```
 
 3) Блокирую ненужные функции драйвера
 
-> cat <no-rtl.conf 
-
-> blacklist dvb_usb_rtl28xxu
-
->  blacklist rtl2832 
-
-> blacklist rtl2830 
-
-> EOF
-
-> sudo mv no-rtl.conf /etc/modprobe.d/
+```bash
+cat <no-rtl.conf 
+blacklist dvb_usb_rtl28xxu
+blacklist rtl2832 
+blacklist rtl2830 
+EOF
+sudo mv no-rtl.conf /etc/modprobe.d/
+```
 
 4) Ставлю библиотеки для сервера
 
-> sudo apt-get update && sudo apt-get install libx11- xcb1 libxss1 libasound2 libxkbfile1 sudo apt-get install libfftw3-dev libfftw3-3 libpng-dev 
-
-> sudo apt-get install libasound2 libasound2-dev
-
->  sudo apt-get install -f libpng-dev
+```bash
+sudo apt-get update && sudo apt-get install libx11- xcb1 libxss1 libasound2 libxkbfile1 sudo apt-get install libfftw3-dev libfftw3-3 libpng-dev 
+sudo apt-get install libasound2 libasound2-dev
+sudo apt-get install -f libpng-dev
+```
 
 <br>
 
 5) Беру дистрибутив websdr и правлю конфиги, а конкретно настраиваю диапазон.
 
+
 > *# Начальная точка, откуда будет проигрываться звук*
 
-> *initial 100000 fm*
+```bash
+*initial 100000 fm*
 
-> *allowwide*
+*allowwide*
 
-> *#BAND 2m*
+*#BAND 2m*
 
-> *band 150MHz*
+*band 150MHz*
 
-> *device !rtlsdr 192.168.1.100:1234*
+*device !rtlsdr 192.168.1.100:1234*
 
-> *# Samplerate in Hz:*
+*# Samplerate in Hz:*
 
-> *samplerate 2048000*
+*samplerate 2048000*
 
-> *# Center frequency in kHz:*
+*# Center frequency in kHz:*
 
-> *centerfreq 100000*
+*centerfreq 100000*
 
-> *# A short description of the antenna, for listing on websdr.org:*
+*# A short description of the antenna, for listing on websdr.org:*
 
-> *antenna GP*
+*antenna GP*
 
-> *gain -30*
+*gain -30*
 
-> *#Added extra zoom function*
+*#Added extra zoom function*
 
-> *extrazoom 1*
+*extrazoom 1*
 
-> *#Added noise blankerfunction*
+*#Added noise blankerfunction*
 
-> *#noiseblanker 100*
+*#noiseblanker 100*
+```
+
+
+
 
 6) Запускаю rtl_tcp командой
 
-> rtl_tcp -a 192.168.1.100 -p1234
+```bash
+rtl_tcp -a 192.168.1.100 -p1234
+```
 
 Можно открыть sdrSharp и выбрав RTL(TCP) вбить этот диапазон, выбрать модуляцию 2.048 mbps, и наслаждаться любым видом контента, не ограничиваясь длинной пропускной способностью приемника в 30khz, в то время, когда обычный FM-поток имеет 190khz. Т.е. послушать нормальный FM не получится.
 
 7) Запускаю websdr из папки дистрибутива
 
-> sudo ./websdr
+```bash
+sudo ./websdr
+```
 
 8) ??? Profit. Через локалку заходим к серверу в гости и видим, что в локалке работает. Теперь надо перекинуть мостик через VDS сервер.
 
@@ -144,9 +145,10 @@ GA(good afternoon), дорогие читатели уютного блога, w
 
 2) Две команды
 
-> wget [https://git.io/vpn](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblpRZ1pvM0hOa3VneFY2OU5CeEl4cHBieXNUd3xBQ3Jtc0tuanN3NkhoYnR2UXNqWkpfczh0ZF9IY2kyRTVuTC1ZMWFZNzJrM21LeGNrZ1pOV3BOSEhIdTVveV9LeE9pN3VzLWtQRVpyR01jSHNjZXRacnhvdDBLNldPLXpTbDRKU1R1N3MzMmY5eGMyTURNc3BhVQ&q=https%3A%2F%2Fgit.io%2Fvpn) -O openvpn-install.sh
-
-> bash openvpn-install.sh
+```bash
+get https://git.io/vpn -O openvpn-install.sh
+bash openvpn-install.sh
+```
 
 Настройка сервер VPN легкая, делал по этому гайду:
 
@@ -165,11 +167,15 @@ apt install -y openvpn
 
 4) Скачиваю получившийся конфиг ovpn, подключаюсь на ноутбуке командой
 
-> sudo openvpn test.ovpn
+```bash
+sudo openvpn test.ovpn
+```
 
 5) Проверяю смену ip:
 
-> curl ifconfig.me
+```bash
+curl ifconfig.me
+```
 
 Готово, ВПН настроен и ip сменился, пора двигаться дальше.
 
@@ -179,7 +185,11 @@ apt install -y openvpn
 
 1) Проверяю на ноуте локальный ip внутри VPN сети
 
-> ifconfig
+```bash
+ifconfig
+```
+
+<br>
 
 ```bash
 inet addr:10.8.0.2 P-t-P:10.8.0.2 Mask:255.255.255.0
@@ -212,31 +222,28 @@ iptables -t nat -A PREROUTING -p tcp -d 92.53.120.26 —dport 8080 -j DNAT —to
 
 1) Выбор пал на linux-dash, устанавливаю его
 
+
 ```bash
-## 1. clone the repo
 git clone --depth 1 https://github.com/afaqurk/linux-dash.git
-## 2. go to the cloned directory
 cd linux-dash/app/server
 ```
 
 2) Компилирую сервер на go
 
 ```bash
-## start the server (on port 80 by default; may require sudo)
 go run index.go
 go build && ./server -h
 ```
 
 3) Запускаю скомпилированный бинарник(каламбур)
 
-```
+```bash
 ./server -listen="0.0.0.0:5555"
-
 ```
 
 4) Снова на сервере правлю iptables
 
-```
+```bash
 iptables -t nat -A PREROUTING -p tcp -d 92.53.120.26 —dport 8081 -j DNAT —to-destination 10.8.0.2:5555
 ```
 
