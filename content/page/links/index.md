@@ -1,10 +1,20 @@
 ---
 title: Ссылки
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: Инструкции для Lego Mindstorms EV3
+    description: Каталог PDF инструкций для Lego Mindstorms EV3
+    website: https://lencodigitexer.github.io/lego/
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Lego-mindstorms-ev3.jpg/285px-Lego-mindstorms-ev3.jpg
+
+  - title: Инструкции для Lego WeDo 2.0
+    description: Каталог PDF инструкций для Lego WeDo 2.0
+    website: https://lencodigitexer.github.io/wedo/
+    image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Lego_WeDo_2.0_Milo_part_C.jpg/320px-Lego_WeDo_2.0_Milo_part_C.jpg
+
+  - title: Автоследование Тинькофф Инвестиции | Единая таблица
+    description:  Эта таблица содержит данные о различных инвестиционных стратегиях. Здесь вы можете найти информацию о названии стратегии, валюте, уровне риска, оценке, владельце и других характеристиках стратегий. 
+    website: https://lencodigitexer.github.io/invest/
+    image: http://avatars.mds.yandex.net/get-entity_search/1989973/530188449/S122x122Fit_2x
 menu:
     main: 
         weight: 4
@@ -14,20 +24,4 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+Ниже представленный ссылки на сайты с полезной информацией

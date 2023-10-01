@@ -9,7 +9,6 @@ categories:
 tags:
     - sdr
     - vpn
-weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 GA(good afternoon), дорогие читатели уютного блога, websdr.org-подобной радиостанции. Вчера я запустил сервис в бета-режиме, создал полигон для развития этого сервера. С вами я, любознательный анонимус, и как я докатился до жизни такой? - Сейчас расскажу
