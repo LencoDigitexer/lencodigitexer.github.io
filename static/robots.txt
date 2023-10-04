@@ -1,4 +1,4 @@
 User-agent: *
 Host: lencodigitexer.github.io
-Sitemap: https://lencodigitexer.github.io/sitemap.xml
+Sitemap: https://lencodigitexer.github.io/sitemap/sitemap.xml
 
