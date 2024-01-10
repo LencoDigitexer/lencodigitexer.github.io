@@ -800,3 +800,67 @@ $$ \cos{\gamma} = \frac{a_{z}}{|\overrightarrow{a}|} $$
 #### Сумма квадратов неправляющих косинусов ненулевого вектора равна 1
 
 $$ cos^2{\alpha} + cos^2{\beta} + cos^2{\gamma} = 1 $$
+
+### Билет 14.2. Координаты вектора
+
+$$ A_{1} (x_{1}; y_{1}; z_{1}) $$
+
+$$ A_{2} (x_{2}; y_{2}; z_{2}) $$
+
+$$ \overrightarrow{A_{1}A_{2}} = (x_{2} - x_{1}; y_{2} - y_{1}; z_{2} - z_{1}) $$
+
+### Билет 15. Произведения векторов. Скалярное произведение
+
+Скалярное произведение ненулевых векторов А и В называется число, равное, произведению длин этих векторов на косинус угла между ними
+
+$$ \overrightarrow{a} \cdot \overrightarrow{b} = |\overrightarrow{a}| \cdot |\overrightarrow{b} | \cdot cos{\phi} $$
+
+#### Свойства скалярного произведения
+
+1) Переместительное свойство
+
+$$ \overrightarrow{a} \cdot \overrightarrow{b} = \overrightarrow{b} \cdot \overrightarrow{a} $$
+
+2) Сочетательное свойство
+
+$$ (\lambda \overrightarrow{a}) \cdot \overrightarrow{b} = \lambda (\overrightarrow{b} \cdot \overrightarrow{a}) $$
+
+$$ \lambda - некоторое\ число $$
+
+3) Распределительное свойство
+
+$$ a (\overrightarrow{b} \cdot \overrightarrow{c}) = a\overrightarrow{b} + a\overrightarrow{c} $$
+
+4) Скалярный квадрат вектора равен длине вектора в квадрате
+
+$$ \overrightarrow{a} = |\overrightarrow{a}|^2 $$
+
+5) Если ненулевые векторы A и B взаимно перпендикулярны, то их скалярное произведение равно нулю.
+
+### Скалярное произведение по координатам
+
+$$ \overrightarrow{a} (a_{x}; a_{y}; a_{z}) $$
+
+$$ \overrightarrow{b} (b_{x}; b_{y}; b_{z}) $$
+
+$$ \overrightarrow{a} \cdot \overrightarrow{b} = (a_{x}b_{x} + a_{y}b_{y} + a_{z}b_{z}) $$
+
+### Приложения скалярного произведения
+
+1) Длина вектора
+
+$$ \overrightarrow{a} = \sqrt{\overrightarrow{a} \cdot \overrightarrow{a}} = \sqrt{a_{x}^2 + a_{y}^2 + a_{z}^2}$$
+
+2) Расстояние между двумя точками
+
+$$ |\overrightarrow{AB}| = \sqrt{(x_{2} - x_{1})^2 + (y_{2} - y_{1})^2 + (z_{2} - z_{1})^2} $$
+
+3) Косинус угла между векторами
+
+$$ cos \phi = \frac{\overrightarrow{a}\overrightarrow{b}}{|\overrightarrow{a}||\overrightarrow{b}|} = \frac{a_{x}b_{x} + a_{y}b_{y} + a_{z}b_{z}}{\sqrt{a_{x}^2 + a_{y}^2 + a_{z}^2} \cdot \sqrt{b_{x}^2 + b_{y}^2 + b_{z}^2}}$$
+
+4) Нахождение проекции вектора a на направдление, заданное вектором b
+
+$$ пр_{b}\overrightarrow{a}=\dfrac{\overrightarrow{a}\cdot \overrightarrow{b}}{\left| \overrightarrow{b}\right| } $$
+
+$$ пр_{a}\overrightarrow{b}=\dfrac{\overrightarrow{a}\cdot \overrightarrow{b}}{\left| \overrightarrow{a}\right| } $$
