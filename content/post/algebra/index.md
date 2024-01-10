@@ -949,3 +949,76 @@ $$ S_{треугольника} = \frac{1}{2}|\overrightarrow{a} \times \overrig
 3) Определение момента силы относительно точки.
 
 ![Момент силы](image-27.png)
+
+4) Нахождение линейной скорости вращения
+
+## Билет 17. Произведения векторов. Смешанное произведение
+
+Рассмотрим произведение abc, составленное так
+
+$$ (\overrightarrow{a} \times \overrightarrow{b}) \cdot  \overrightarrow{c}$$
+
+Такое произведение называется векторно-скалярным или смешанным
+
+### Геометрический смысл
+
+Смешанное произведение вектором равно объему параллелепипеду, построенного на этих векторам и взятому со знаком
+- (+) если эти векторы обазуют правую тройку
+- (-) если эти векторы образуют левую тройку
+
+### Свойства смешанного произведения векторов
+
+1) Циклическая перестановка
+
+$$ (\overrightarrow{a} \times \overrightarrow{b}) \cdot  \overrightarrow{c} = (\overrightarrow{c} \times \overrightarrow{a}) \cdot  \overrightarrow{b} = (\overrightarrow{d} \times \overrightarrow{c}) \cdot  \overrightarrow{a}$$
+
+2) Перестановка местами знаков векторного и скалярного произведения
+
+$$ (\overrightarrow{a} \times \overrightarrow{b}) \cdot  \overrightarrow{c} = \overrightarrow{b} \cdot (\overrightarrow{b} \times \overrightarrow{c}) $$
+
+3) Перестановка двух векторов
+
+$$ \overrightarrow{a}\overrightarrow{b}\overrightarrow{c} = - \overrightarrow{b}\overrightarrow{a}\overrightarrow{c}$$
+
+4) Смешанное произведение ненулевых векторов равно нулю только в том случае, когда они компланарны (лежат в одной прямой или плоскости)
+
+### Смешанное произведение векторов
+
+$$ \overrightarrow{a} (a_{x}; a_{y}; a_{z}) $$
+
+$$ \overrightarrow{b} (b_{x}; b_{y}; b_{z}) $$
+
+$$ \overrightarrow{c} (c_{x}; c_{y}; c_{z}) $$
+
+Выражается через координаты этих векторов так:
+
+$$ \overrightarrow{a}\overrightarrow{b}\overrightarrow{c} = \begin{vmatrix}
+a_{x} & a_{y} & a_{z}\\\\
+b_{x} & b_{y} & b_{z}\\\\
+c_{x} & c_{y} & c_{z}
+\end{vmatrix} $$
+
+#### Пример
+![Пример](image-28.png)
+
+### Некоторые приложения смешанного произведения
+
+1) Определение взаимной ориентации векторов в пространстве
+
+![Alt text](image-29.png)
+
+2) Установление компланарности векторов
+
+Векторы abc компланарны(если они лежат на одной прямой, либо на параллельных прямых) когда их смешанное произведение равно нулю
+
+![Alt text](image-30.png)
+
+3) Определение объемов параллелепипеда и треугольной пирамиды
+
+$$ V_{параллелепипеда} = |\overrightarrow{a}\overrightarrow{b}\overrightarrow{c}| $$
+
+$$ V_{треугольной\ пирамиды} = \frac{1}{6} |\overrightarrow{a}\overrightarrow{b}\overrightarrow{c}| $$
+
+![Alt text](image-31.png)
+
+![Alt text](image-32.png)
