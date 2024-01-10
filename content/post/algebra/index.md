@@ -801,7 +801,7 @@ $$ \cos{\gamma} = \frac{a_{z}}{|\overrightarrow{a}|} $$
 
 $$ cos^2{\alpha} + cos^2{\beta} + cos^2{\gamma} = 1 $$
 
-### Билет 14.2. Координаты вектора
+## Билет 14.2. Координаты вектора
 
 $$ A_{1} (x_{1}; y_{1}; z_{1}) $$
 
@@ -809,7 +809,7 @@ $$ A_{2} (x_{2}; y_{2}; z_{2}) $$
 
 $$ \overrightarrow{A_{1}A_{2}} = (x_{2} - x_{1}; y_{2} - y_{1}; z_{2} - z_{1}) $$
 
-### Билет 15. Произведения векторов. Скалярное произведение
+## Билет 15. Произведения векторов. Скалярное произведение
 
 Скалярное произведение ненулевых векторов А и В называется число, равное, произведению длин этих векторов на косинус угла между ними
 
@@ -864,3 +864,88 @@ $$ cos \phi = \frac{\overrightarrow{a}\overrightarrow{b}}{|\overrightarrow{a}||\
 $$ пр_{b}\overrightarrow{a}=\dfrac{\overrightarrow{a}\cdot \overrightarrow{b}}{\left| \overrightarrow{b}\right| } $$
 
 $$ пр_{a}\overrightarrow{b}=\dfrac{\overrightarrow{a}\cdot \overrightarrow{b}}{\left| \overrightarrow{a}\right| } $$
+
+## Билет 16. Произведения векторов. Векторное произведение
+
+3 некомпланарных вектора a, b, c взяты в указанном порядке образуют правую тройку, если с конца 3-го вектора **с** кратчайший поворот от первого вектора **а** ко второму вектору **b** виден совершающимся против часовой стрелки, и левую, если по часовой
+
+![Alt text](image-21.png)
+
+![Alt text](image-22.png)
+
+### Векторное произведение
+
+Векторное произведение вектора **а** на вектор **b** называется вектор **c** который
+
+1) Перпендикулярен векторам a и b
+
+$$\overrightarrow{c} \bot \overrightarrow{a}$$
+
+$$\overrightarrow{c} \bot \overrightarrow{b}$$
+
+2) имеет длину, численно равную площади параллелограмма, построенного на векторах a и b, как на сторонах
+
+$$ |\overrightarrow{c}| = |\overrightarrow{a}| \cdot |\overrightarrow{b}| \cdot sin \varphi $$
+
+3) Векторы a, b и c образуют правую тройку
+
+$$ Обознач. \overrightarrow{a} \times \overrightarrow{b} $$
+
+### Свойства векторного произведения векторов
+
+1)  При перестановке множителей векторное произведение меняет знак на противоположный
+
+$$ \overrightarrow{a} \times \overrightarrow{b} = -\overrightarrow{b} \times \overrightarrow{a} $$
+
+2) Сочетательное свойство
+
+$$ (\lambda \overrightarrow{a}) \times \overrightarrow{b} = \overrightarrow{a} \times (\lambda \overrightarrow{b}) = \lambda (\overrightarrow{b} \times \overrightarrow{a}) $$
+
+3)  Два ненулевых вектора коллинеарны тогда и только тогда, когда их
+векторное произведение равно нулевому вектору
+
+$$ \overrightarrow{a} \| \overrightarrow{b} = \overrightarrow{a}\times \overrightarrow{b}=0 $$
+
+4) Векторное произведение векторов обладает распределительным свойтсвом
+
+$$ (a+b) \times c = a \times c + b \times c $$
+
+### Векторное произведение векторов
+
+$$ \overrightarrow{a} (a_{x}; a_{y}; a_{z}) $$
+
+$$ \overrightarrow{b} (b_{x}; b_{y}; b_{z}) $$
+
+$$ \overrightarrow{a} \times \overrightarrow{b} = \begin{pmatrix}
+\overrightarrow{i}, & \overrightarrow{j}, & \overrightarrow{k} \\\\
+a_{x} & a_{y} & a_{z}\\\\
+b_{x} & b_{y} & b_{z}
+\end{pmatrix} $$
+
+![раскладывать можно только по первой строке!](image-23.png)
+
+### Приложения векторного произведения векторов
+
+1) Установление коллинеарности векторов
+
+Если
+
+$$ \overrightarrow{a} \| \overrightarrow{b},\ то\ \overrightarrow{a}\times \overrightarrow{b}=0 $$
+
+и наоборот.
+
+![пример](image-24.png)
+
+2) Нахождение площади параллелограмма и треугольника.
+
+$$ S_{параллелограмма} = |\overrightarrow{a} \times \overrightarrow{b}| $$
+
+$$ S_{треугольника} = \frac{1}{2}|\overrightarrow{a} \times \overrightarrow{b}| $$
+
+![ПЛощадь треугольника](image-25.png)
+
+![Площадь параллелограмма](image-26.png)
+
+3) Определение момента силы относительно точки.
+
+![Момент силы](image-27.png)
