@@ -1022,3 +1022,55 @@ $$ V_{треугольной\ пирамиды} = \frac{1}{6} |\overrightarrow{a
 ![Alt text](image-31.png)
 
 ![Alt text](image-32.png)
+
+# Линейные векторные пространства
+
+## Билет 18. Линейные векторные пространства. Линейная зависимостьи и независимость системы векторов.
+
+### Векторное пространство
+
+Множество всех плоских или пространственных векторов, которые определены операциям сложения вектора и умножения вектора на число
+
+### n-мерный вектор
+
+n-мерный вектором называется упорядоченная совокупность n действительных чисел, записанных в виде
+
+$$ \overrightarrow{x} = (x_{1}, x_{2}, ..., x_{n}) $$
+
+где
+
+$$ x_{i} - конпонент\ вектора\ \overrightarrow{x} $$
+
+### Равность n-мерных векторов
+
+Два n-мерных вектора равны тогда и только тогда, когда равны их соответствующие компоненты, т.е.
+
+$$ \overrightarrow{x}=\overrightarrow{y} $$
+
+если
+
+$$ x_{i} = y_{i}, i=\overrightarrow{1, n} $$
+
+### Линейные операции над любыми векторами удовлетворют условия
+
+1) Коммуникативное свойство
+
+$$ \overrightarrow{x}+\overrightarrow{y} = \overrightarrow{y}+\overrightarrow{x}$$
+
+2) Ассоциативное свойство
+
+$$ (\overrightarrow{x}+\overrightarrow{y}) +  \overrightarrow{z} = \overrightarrow{x} + (\overrightarrow{y}+\overrightarrow{z})$$
+
+3) Ассоциативное свойство относительно числового множителя
+
+$$ \alpha(\beta \overrightarrow{x}) = (\alpha\beta) \overrightarrow{x} $$
+
+4) Дистрибутивное (распределительное) свойство относительно суммы векторов
+
+$$ \alpha(\overrightarrow{x} + \overrightarrow{y}) = \alpha \overrightarrow{x} + \alpha \overrightarrow{y} $$
+
+5) Дистрибутивное (распределительное) свойство относительно суммы числовых множителей
+
+$$ (\alpha + \beta) \overrightarrow{x} = \alpha \overrightarrow{x} + \beta \overrightarrow{x} $$
+
+6)
