@@ -1251,14 +1251,12 @@ $$ \lambda _{1} \cdot \begin{pmatrix}
  $$
 
 $$
-
 \begin{cases}
 \lambda_{1} + 2\lambda_{2} + 3\lambda_{3} =0 \\\\
 3\lambda_{1} + 1\lambda_{2} - 3\lambda_{3} =0 \\\\
 \lambda_{1} + \lambda_{2} + \lambda_{3} =0 \\\\
 3\lambda_{1} + 2\lambda_{2} + \lambda_{3} =0
 \end{cases}
-
 $$
 
 #### Решением методом гаусса получим
@@ -1393,7 +1391,7 @@ $$ \overrightarrow{a_{1}} \overrightarrow{a_{2}} \overrightarrow{a_{3}} $$
 
 образуют базис, если они линейно независимы
 
-$$ \lambda _{1}a_{1} + \lambda _{3}a_{3} + \lambda _{3}a_{3}$$
+$$ \lambda _{1}a_{1} + \lambda _{3}a_{3} + \lambda _{3}a_{3} $$
 
 Запишем векторы в виде вектор-столбцов
 
@@ -1450,11 +1448,11 @@ $$ \mathbb{R} $$
 
 - старый
 
-$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, ..., \overrightarrow{e_{n}}$$
+$$ \overrightarrow{e_{1}}, \overrightarrow{e_{2}}, ..., \overrightarrow{e_{n}} $$
 
 - новый
 
-$$ \overrightarrow{e_{1}^*}, \overrightarrow{e_{2}^*}, ..., \overrightarrow{e_{n}^*}$$
+$$ \overrightarrow{e_{1}^*}, \overrightarrow{e_{2}^*}, ..., \overrightarrow{e_{n}^*} $$
 
 Каждый из векторов нового базиса можно выразить в виде линейной комбинации векторов старого базиса
 
@@ -1463,7 +1461,7 @@ $$
 \overrightarrow{e_{1}^*} = a_{11}  \overrightarrow{e_{1}} + a_{12}  \overrightarrow{e_{2}} + ... + a_{1n}  \overrightarrow{e_{n}}\\\\
 \overrightarrow{e_{2}^*} = a_{21}  \overrightarrow{e_{1}} + a_{22}  \overrightarrow{e_{2}} + ... + a_{2n}  \overrightarrow{e_{n}}\\\\
 ............................ \\\\
-\overrightarrow{e_{n}^*} = a_{n1}  \overrightarrow{e_{1}} + a_{n2}  \overrightarrow{e_{2}} + ... + a_{nn}  \overrightarrow{e_{n}}\\\\
+\overrightarrow{e_{n}^*} = a_{n1}  \overrightarrow{e_{1}} + a_{n2}\\\\  \overrightarrow{e_{2}} + ... + a_{nn}  \overrightarrow{e_{n}}\\\\
 \end{cases}
 $$
 
