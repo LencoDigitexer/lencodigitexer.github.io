@@ -1576,3 +1576,104 @@ $$\overrightarrow{a_{1}}, \overrightarrow{a_{2}}, \overrightarrow{e_{3}}$$
 или
 
 $$ \overrightarrow{b} \cdot \frac{1}{2}\overrightarrow{a_{1}} + 2\overrightarrow{a_{2}} - \frac{1}{2} \overrightarrow{e_{3}}$$
+
+## Билет 20. Линейные операторы и действия над ними
+
+Рассмотрим две линейных пространства
+
+$$ \mathbb{R}^n $$
+
+размерности n и
+
+$$ \mathbb{R}^m $$
+
+размерности m.
+
+Если задан закон по которому каждому вектору x пространства R становится в соответствии единственный вектор y пространства Rm, то говорят, что задан **оператор (преобразования, отображение)**
+
+$$ \overline{A}\left( \overrightarrow{x}\right) $$
+
+действует из
+
+$$ \mathbb{R}^n $$
+
+в
+
+$$ \mathbb{R}^m $$
+
+и обозначается
+
+$$ \overrightarrow{y} = \overline{A}\left( \overrightarrow{x}\right) $$
+
+### Линейный оператор
+
+Если для любых векторов x и y пространства Rn и любого числа λ выполняется соотношение
+
+1) Свойство аддиктивности
+
+$$ \overline{A}\left( \overrightarrow{x}+\overrightarrow{y}\right) = \overline{A}\left( \overrightarrow{x}\right) + \overline{A}\left( \overrightarrow{y}\right)$$
+
+2) Свойство однородности
+
+$$ \overline{A}\left( \lambda \overrightarrow{x}\right) = \lambda \cdot \overline{A}\left( \overrightarrow{x}\right)$$
+
+### Образ вектора и прообраз
+
+Вектор
+
+$$ \overrightarrow{y} = \overline{A}\left( \overrightarrow{x}\right) $$
+
+называется образом вектора x, а сам вектор x называется прообразом вектора y.
+
+### Пространства совпадают
+
+Если пространства Rn и Rm совпадают, то оператор А отображает пространство Rn в себя.
+
+Выберем в пространстве Rn базис
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, ..., \overrightarrow{e_{n}}$$
+
+и запишем расположение произвольного вектора X по данному базису
+
+$$ \overrightarrow{x} = x_{1} \overrightarrow{e_{1}} + x_{2}\overrightarrow{e_{2}} + ... + x_{n}\overrightarrow{e_{n}} $$
+
+#### В силу линейности оператора A получим
+
+$$ \overline{A} (\overrightarrow{x}) = x_{1} \overline{A} (\overrightarrow{e_{1}}) + x_{2} \overline{A} (\overrightarrow{e_{2}}) + ... + x_{n} \overline{A} (\overrightarrow{e_{n}}) $$
+
+Так как оператор
+
+$$ \overline{A} (\overrightarrow{e_{i}}) $$
+
+так же является вектором из Rn и его можно разложить по базису
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, ..., \overrightarrow{e_{n}}$$
+
+С другой стороны вектор
+
+$$ \overrightarrow{y} = \overline{A}\left( \overrightarrow{x}\right) $$
+
+имеющийся в базисе
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, ..., \overrightarrow{e_{n}}$$
+
+координаты
+
+$$ y_{1}, y_{2}, ...,  y_{n}, $$
+
+можно записать так
+
+$$ \overline{A} (\overrightarrow{x}) = y_{1} \overrightarrow{e_{1}} + y_{2}\overrightarrow{e_{2}} + ... + y_{n}\overrightarrow{e_{n}}$$
+
+Ввиду единственного разложения вектора по базису, отсюда
+
+$$
+\begin{cases}
+y_{1} = a_{11}x_{1}  + a_{12} x_{2} + ... + a_{1n} x_{n}\\\\
+y_{2} = a_{21}x_{1}  + a_{22} x_{2} + ... + a_{2n} x_{n}\\\\
+...................\\\\
+y_{n} = a_{n1}x_{1}  + a_{n2} x_{2} + ... + a_{nn} x_{n}
+\end{cases}
+$$
+
+## Билет 21. Матрица линейного оператора в различных базисах. Связь между матрицами линейного оператора в различных базисах
