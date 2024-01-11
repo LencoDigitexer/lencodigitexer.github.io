@@ -1471,3 +1471,108 @@ x_{2} \\\\
 x_{n}
 \end{pmatrix}
 $$
+
+### Пример
+
+В базисе
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, \overrightarrow{e_{3}}$$
+
+даны векторы
+
+$$ a_{1}=(1;1;0) $$
+
+$$ a_{2}=(1;-1;1) $$
+
+$$ a_{3}=(-3;5;-6) $$
+
+Вектор
+
+$$ b=(4;-4;5) $$
+
+заданный в базисе
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, \overrightarrow{e_{3}}$$
+
+выразить в базисе
+
+$$\overrightarrow{a_{1}}, \overrightarrow{a_{2}}, \overrightarrow{e_{3}}$$
+
+#### Решение
+
+Выразим связи между базисами
+
+$$
+\begin{cases}
+\overrightarrow{a_{1}} = \overrightarrow{e_{1}}  + \overrightarrow{e_{2}}\\\\
+\overrightarrow{a_{2}} = \overrightarrow{e_{1}}  - \overrightarrow{e_{2}} + \overrightarrow{e_{3}}\\\\
+\overrightarrow{a_{3}} = -3\overrightarrow{e_{1}}  + 5\overrightarrow{e_{2}} - 6\overrightarrow{e_{2}}
+\end{cases}
+$$
+
+##### Матрица перехода от базиса
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, \overrightarrow{e_{3}}$$
+
+к базису
+
+$$\overrightarrow{a_{1}}, \overrightarrow{a_{2}}, \overrightarrow{e_{3}}$$
+
+$$
+A=\begin{pmatrix}
+1 & 1 & -3\\\\
+1 & -1 & 5 \\\\
+0 & 1 & -6
+\end{pmatrix}
+$$
+
+###### Вычитаем обратную матрицу
+
+$$
+A^{-1}= \frac{1}{4} \begin{pmatrix}
+1 & 3 & 2\\\\
+6 & -6 & -8 \\\\
+1 & -1 & -2
+\end{pmatrix}
+$$
+
+###### Применим формулу
+
+$$\begin{pmatrix}
+x_{1}^* \\\\
+x_{2}^* \\\\
+x_{3}^*
+\end{pmatrix} = \frac{1}{4} \begin{pmatrix}
+1 & 3 & 2\\\\
+6 & -6 & -8 \\\\
+1 & -1 & -2
+\end{pmatrix} \cdot \begin{pmatrix}
+4\\\\
+-4\\\\
+5
+\end{pmatrix} = \frac{1}{4} \cdot \begin{pmatrix}
+-2\\\\
+8\\\\
+2
+\end{pmatrix} = \begin{pmatrix}
+\frac{1}{2}\\\\
+2\\\\
+-\frac{1}{2}
+\end{pmatrix}
+$$
+
+Таким образом, новые координаты вектора в базисе
+
+$$\overrightarrow{a_{1}}, \overrightarrow{a_{2}}, \overrightarrow{e_{3}}$$
+
+есть
+
+$$ \overrightarrow{b} = (\frac{1}{2};2;-\frac{1}{2}) $$
+
+относительно базиса
+
+$$\overrightarrow{a_{1}}, \overrightarrow{a_{2}}, \overrightarrow{e_{3}}$$
+
+или
+
+$$ \overrightarrow{b} \cdot \frac{1}{2}\overrightarrow{a_{1}} + 2\overrightarrow{a_{2}} - \frac{1}{2} \overrightarrow{e_{3}}$$
