@@ -1772,3 +1772,90 @@ $$ A^* = С_{-1} \cdot A \cdot C $$
 где
 
 C - матрица перехода от старого базиса к новому.
+
+## Билет 22. Собственные числа и собственные векторы линейного оператора
+
+## Билет 23. Евклидово пространство. Ортогональный базис и ортогональные проеобразования
+
+### Скалярное произведение двух векторов
+
+Скалярным произведением двух векторов
+
+$$ \overrightarrow{x} = (x_{1}; x_{2}; x_{3}; ...; x_{n})$$
+
+$$ \overrightarrow{y} = (y_{1}; y_{2}; y_{3}; ...; y_{n})$$
+
+называется число
+
+$$ x_{1} y_{1} + x_{2} y_{2} + ... + x_{n} y_{n} = \sum ^{n}_{i=1}x_{i}y_{i}$$
+
+### Свойства скалярного произведения
+
+1)
+
+$$ \overrightarrow{x} \cdot \overrightarrow{y} = \overrightarrow{y} \cdot \overrightarrow{x} $$
+
+2)
+
+$$ \overrightarrow{x}(\overrightarrow{y} + \overrightarrow{z}) = \overrightarrow{x}\overrightarrow{y} + \overrightarrow{x}\overrightarrow{z} $$
+
+3)
+
+$$ (\overrightarrow{x} \cdot \overrightarrow{y}) \cdot \overrightarrow{z} = \overrightarrow{x} \cdot (\overrightarrow{y} \cdot \overrightarrow{z})$$
+
+4) Если X-ненулевой, то
+
+$$ \overrightarrow{x} \cdot \overrightarrow{x} > 0 $$
+
+5) Если X-нулевой, то
+
+$$ \overrightarrow{x} \cdot \overrightarrow{x} = 0 $$
+
+### Евклидово пространство
+
+Евклидово пространство - линейное пространство, в котором скалярное произведение векторов, удовлетворяющее указанным 4 свойствам и рассматривается как аксиома.
+
+#### Длина (орта) евклидова пространства
+
+Называется корень квадрата из его скалярного произведения
+
+$$ |\overrightarrow{x}| = \sqrt{\overrightarrow{x} \cdot \overrightarrow{x}} = \sqrt{x_1^2 + x_2^2 + ... + x_n^2} $$
+
+### Свойства длины вектора
+
+1)
+
+$$ |\overrightarrow{x}| = 0 $$
+когда $$ \overrightarrow{x} = 0 $$
+
+2)
+
+$$ |λ\overrightarrow{x}| = |λ| \cdot |\overrightarrow{x}|  $$
+
+где λ - действительное число
+
+3) Неравенство Коши-Бутяковского
+
+$$ |\overrightarrow{x} \cdot \overrightarrow{y}| ≤ |\overrightarrow{x}| \cdot |\overrightarrow{y}|  $$
+
+4) Неравенство треугольника
+
+$$ |\overrightarrow{x} + \overrightarrow{y}| ≤ |\overrightarrow{x}| + |\overrightarrow{y}|  $$
+
+### Ортогональные вектора
+
+Если их скалярное произведение равно нулю
+
+### Ортонормированный базис
+
+Векторы
+
+$$\overrightarrow{e_{1}}, \overrightarrow{e_{2}}, ..., \overrightarrow{e_{n}}$$
+
+n-мерного пространства, образуют ортонормированный базис, если эти векторы попарно ортогональны и орта каждого из них равна единице
+
+### Теорема
+
+Во всяком n-мерном пространстве существует ортонормированный базис.
+
+## Билет 24. Квадратичные формы
