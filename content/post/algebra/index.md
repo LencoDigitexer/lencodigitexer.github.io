@@ -1676,6 +1676,40 @@ y_{n} = a_{n1}x_{1}  + a_{n2} x_{2} + ... + a_{nn} x_{n}
 \end{cases}
 $$
 
+### Действия над линейными операторами
+
+1) Суммой двух линейных операторов
+
+$$ \overline{A}\ и\  \overline{B}$$
+
+называется оператор
+
+$$ \overline{A} +  \overline{B}$$
+
+определяемый равенством
+
+$$ (\overline{A} +  \overline{B}) (\overrightarrow{X}) = \overline{A}(\overrightarrow{X}) + \overline{B}(\overrightarrow{X})$$
+
+2) Произведением линейного оператора
+
+$$ \overline{A}$$
+
+на число λ называется определяемым равенством
+
+$$ (λ\overline{A})(\overrightarrow{X}) = λ\overline{A}(\overrightarrow{X})$$
+
+3) Произведением линейных операторов
+
+$$ \overline{A}\ и\  \overline{B}$$
+
+называется оператор
+
+$$ \overline{A} \cdot \overline{B}$$
+
+определяемый равенством
+
+$$ (\overline{A} \cdot \overline{B}) (\overrightarrow{X}) = \overline{A}(\overline{B}(\overrightarrow{X}))$$
+
 ## Билет 21. Матрица линейного оператора в различных базисах. Связь между матрицами линейного оператора в различных базисах
 
 Матрица
