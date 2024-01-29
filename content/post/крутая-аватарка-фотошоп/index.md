@@ -13,6 +13,10 @@ categories:
 
 [https://фотошопонлайн.рф](https://xn--80asehdbaaaj4aw9c.xn--p1ai/)
 
+## Примеры
+
+![Пример 1](https://74foto.ru/800/600/http/i.pinimg.com/originals/37/ed/61/37ed61958a8435f6e16a5898fd43d5b5.jpg) ![Пример 2](https://rafael.studio/wp-content/uploads/2021/02/portret-v-dvojnoj-ehkspoziciej-2.jpg) ![Пример 3](https://insider.kelbyone.com/wp-content/uploads/2019/12/DoubleHero.jpg) 
+
 ## Будем создавать эффект двойной экспозиции из двух фотографий
 
 ### Волк
