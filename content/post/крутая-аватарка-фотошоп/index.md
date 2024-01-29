@@ -25,62 +25,62 @@ categories:
 
 ![Лес](forest.jpg)
 
-[Открыть картинку леса в браузере ЗАМЕНИТЬ ССЫЛКУ!!!](https://lencodigitexer.github.io/p/замена-лица-в-фотошопе/forest.jpg)
+[Открыть картинку леса в браузере](https://lencodigitexer.github.io/p/двойная-экспозиция-в-фотошопе/forest.jpg)
 
 ## Откроем два файла в фотошопе
 
-![Alt text](image-1.png)
+![](image-1.png)
 
-![Alt text](image-2.png)
+![](image-2.png)
 
 ## Скопируем волка и вставим в файл с лесом
 
-![Alt text](image-3.png)
+![](image-3.png)
 
 Зажимая CTRL кликаем по миниатюре волка
 
-![Alt text](image-4.png)
+![](image-4.png)
 
 Волк выделился. Теперь скопируем выделенную область сочетанием клавиш CTRL+C
 
-![Alt text](image-5.png)
+![](image-5.png)
 
 Вставим в файл с лесом.
 
-![Alt text](image-8.png)
+![](image-8.png)
 
 Уменьшим волка, чтобы он поместился.
 
-![Alt text](image-7.png)
+![](image-7.png)
 
 Меняем местами слои, чтобы волк находился под лесом.
 
-![Alt text](image-9.png)
+![](image-9.png)
 
 Создаем маску Отсечения (иногда называется Обтравочная маска или Clipping Mask) для слоя с лесом
 
-![Alt text](image-10.png)
+![](image-10.png)
 
 Должна получиться двойная экпозиция.
 
 ## Применим прозрачный контур волка
 
-![Alt text](image-11.png)
-![Alt text](image-12.png)
+![](image-11.png)
+![](image-12.png)
 
 Продублируем слой с волком и поместим его наверх всех слоёв.
 
-![Alt text](image-13.png)
+![](image-13.png)
 
-![Alt text](image-14.png)
+![](image-14.png)
 
 Поменяйте режим наложения для дубликата слоя на Осветление
 
-![Alt text](image-15.png)
+![](image-15.png)
 
 Изменим цветность изображения волка с помощью  Изображение -> Коррекция -> Уровни
 
-![Alt text](image-16.png)
+![](image-16.png)
 
 Крути ручки, пока не станет красиво
 
@@ -88,24 +88,24 @@ categories:
 
 ## Работаем с фоном
 
-![Alt text](image-19.png)
+![](image-19.png)
 
 Берем пипетку, кликаем по любому цвету на волке
 
-![Alt text](image-20.png)
+![](image-20.png)
 
 Создадим новый слой
 
-![Alt text](image-21.png)
+![](image-21.png)
 
 Поместим в самый низ
 
-![Alt text](image-22.png)
+![](image-22.png)
 
 Выбираем заливку
 
-![Alt text](image-23.png)
+![](image-23.png)
 
 Получаем такой фон.
 
-![Alt text](image-24.png)
+![](image-24.png)
