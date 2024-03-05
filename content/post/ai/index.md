@@ -11,13 +11,11 @@ categories:
 
 A downloadable tool for Windows
 
-![](image004.png) 
+![](image004.png)
+
 Name your own price
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="255" height="204" src="image006.png" alt="Надпись:  
-" v:shapes="_x0000_s1063"></td></tr></tbody></table>
-
-  
+![](image006.png)
 
 This is my collection of portable AI packages to run it fast without anxious headache in console. initially, I made these tools for myself, but maybe someone else will need them. All portables can work offline and tested on gtx 1050 ti 4gb(cuda) and core i3 1005g1 (cpu). OK, heres the list:
 
@@ -27,25 +25,22 @@ This is my collection of portable AI packages to run it fast without anxious hea
 
 !!! TO AVOID CUDA OUT OF MEMORY ERRORS, INSTALL NVIDIA DRIVERS 535 OR NEWER !!!
 
-\-TEXT-
+## -TEXT-
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="564" height="270" src="image008.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1064"></td></tr></tbody></table>
-
+![](image008.png)
   
 Koboldai \[CPU/CUDA\] \- [link](https://github.com/KoboldAI/KoboldAI-Client/releases/) \- also in downloads / [online demo](https://lite.koboldai.net/)
 
   
 
-\-CHAT-
--------
+## -CHAT-
 
 Mistral-7B-openorca 4bit koboldcpp webui \[CPU/OpenCL\] \- in downloads
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="564" height="372" src="image010.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1065"></td></tr></tbody></table>
+
+![](image010.png)
 
   
 / [source](https://github.com/ggerganov/llama.cpp) / [webui](https://github.com/LostRuins/koboldcpp/releases) / [model](https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF)
@@ -81,9 +76,9 @@ Multitrack midi music generator (generates short jingles, each instrument genera
 \-TEXT TO MUSIC/AUDIO-
 ----------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="568" height="446" src="image024.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1068"></td></tr></tbody></table>
+![](image024.png)
+
 
   
 AudioCraft Plus \[CUDA/CPU\] \- in downloads / [source](https://github.com/facebookresearch/audiocraft) / [webui](https://github.com/GrandaddyShmax/audiocraft_plus) / [online demo](https://huggingface.co/spaces/facebook/MusicGen)
@@ -99,20 +94,17 @@ Coqui XTTS2 webui (voice cloning is more "stable" than bark, but less artistic) 
 
 Suno ai Bark webui (tts is more chaotic than xtts, but if you have patience, you can roll ideal variant) (with zeroshot voice conversion) \[CUDA/CPU\] \- in
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="625" src="image028.png" alt="Надпись:  
-
-" v:shapes="_x0000_s1069"></td></tr></tbody></table>
+![](image028.png)
 
   
 downloads / source / webui / online demo
 
 TorToiSe webui (english-only) \[CUDA/CPU\] \- in downloads
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="554" height="300" src="image030.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1070"></td></tr></tbody></table>
+
+![](image030.png)
 
   
 / [source](https://github.com/neonbjb/tortoise-tts) / [webui](https://git.ecker.tech/mrq/ai-voice-cloning) / [online demo](https://replicate.com/afiaka87/tortoise-tts)
@@ -122,9 +114,9 @@ TorToiSe webui (english-only) \[CUDA/CPU\] \- in downloads
 \-VOICE CONVERSION VIA TRAINING-
 --------------------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="511" src="image032.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1071"></td></tr></tbody></table>
+
+![](image032.png)
 
   
 RVC singing voice cloning webui \[CUDA\] \- [link](https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main) \- also in downloads / [source](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/docs/README.en.md)
@@ -134,9 +126,7 @@ RVC singing voice cloning webui \[CUDA\] \- [link](https://huggingface.co/lj1995
 
   
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="546" height="483" src="image034.png" alt="Надпись:  
-
-" v:shapes="_x0000_s1072"></td></tr></tbody></table>
+![](image034.png)
 
   
 FreeVC webui \[CPU\] \- in downloads / [source](https://github.com/OlaWod/FreeVC) / [webui](https://huggingface.co/spaces/OlaWod/FreeVC)
@@ -153,9 +143,7 @@ Whispercpp GUI \[DirectX/CPU\] \- [link](https://github.com/Const-me/Whisper/rel
 
   
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="548" height="315" src="image038.png" alt="Надпись:  
-
-" v:shapes="_x0000_s1073"></td></tr></tbody></table>
+![](image038.jpg)
 
   
 AudioSR (cli interface) \[CUDA/CPU\] \- in downloads / [source](https://github.com/haoheliu/versatile_audio_super_resolution)
@@ -165,18 +153,15 @@ AudioSR (cli interface) \[CUDA/CPU\] \- in downloads / [source](https://github.c
 
 VoiceFixer webui \[CPU\] \- in downloads / [source](https://github.com/haoheliu/voicefixer) / [webui](https://huggingface.co/spaces/Kevin676/VoiceFixer)
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="479" height="314" src="image040.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1074"></td></tr></tbody></table>
 
-  
+![](image040.png)
 
 \-DUAL SPEAKER SPEECH SEPARATION-
 ---------------------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="570" height="135" src="image042.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1075"></td></tr></tbody></table>
+![](image042.png)
 
   
 Dual Path RNN (cli interface) \- in downloads / [source](https://github.com/JusperLee/Dual-Path-RNN-Pytorch)
@@ -184,11 +169,9 @@ Dual Path RNN (cli interface) \- in downloads / [source](https://github.com/Jusp
 \-AUDIO SEPARATION BY PROMPT-
 -----------------------------
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="283" src="image044.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1076"></td></tr></tbody></table>
+![](image044.png)
 
   
 AudioSep webui \[CUDA/CPU\]\[CPU\] \- in downloads / [source](https://github.com/Audio-AGI/AudioSep) / [webui](https://huggingface.co/spaces/Audio-AGI/AudioSep)
@@ -196,18 +179,14 @@ AudioSep webui \[CUDA/CPU\]\[CPU\] \- in downloads / [source](https://github.com
 \-VOCALS/STEMS EXTRACTION-
 --------------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="564" height="606" src="image046.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1077"></td></tr></tbody></table>
+![](image046.png)
 
   
 UVR \[CPU/CUDA\] \- [link](https://github.com/Anjok07/ultimatevocalremovergui/releases/) \- also in downloads / [online demo](https://mvsep.com/)
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="566" height="316" src="image048.png" alt="Надпись:  
-
-" v:shapes="_x0000_s1078"></td></tr></tbody></table>
+![](image048.png)
 
   
 Demucs gui \[CPU\]\[CUDA\] \- [link](https://carlgao4.github.io/demucs-gui/) \- also in downloads / [source](https://github.com/facebookresearch/demucs) / [gui](https://github.com/CarlGao4/Demucs-Gui)
@@ -215,9 +194,8 @@ Demucs gui \[CPU\]\[CUDA\] \- [link](https://carlgao4.github.io/demucs-gui/) \- 
 \-IMAGE COLORIZATION-
 ---------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="564" height="378" src="image050.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1079"></td></tr></tbody></table>
+![](image050.png)
 
   
 DeOldify .NET gui \[CPU\] \- [link](https://github.com/ColorfulSoft/DeOldify.NET/releases) \- also in downloads / [source](https://github.com/jantic/DeOldify) / [gui](https://github.com/ColorfulSoft/DeOldify.NET) / [online demo](https://huggingface.co/spaces/leonelhs/deoldify)
@@ -234,11 +212,8 @@ DIS (BRIAAI RMBG 1.4 model) webui \[CPU\] \- in downloads / [source](https://git
 \-MONOCULAR-DEPTH-ESTIMATION-
 -----------------------------
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="794" src="image054.png" alt="Надпись:  
-
-" v:shapes="_x0000_s1080"></td></tr></tbody></table>
+![](image054.png)
 
   
 ZoeDepth-webui \[CUDA/CPU\]\[CPU\] \- in downloads / [source](https://github.com/isl-org/ZoeDepth) / [webui](https://huggingface.co/spaces/shariqfarooq/ZoeDepth)
@@ -246,11 +221,9 @@ ZoeDepth-webui \[CUDA/CPU\]\[CPU\] \- in downloads / [source](https://github.com
 \-IMAGE UPSCALING-
 ------------------
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="563" height="448" src="image056.png" alt="Надпись:  
+![](image056.png)
 
-" v:shapes="_x0000_s1081"></td></tr></tbody></table>
 
   
 real-ESRGAN-gui \[Vulkan\] \- [link](https://github.com/TransparentLC/realesrgan-gui/releases) \- also in downloads / [source](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan) / [gui](https://github.com/TransparentLC/realesrgan-gui) / [online demo](https://replicate.com/xinntao/realesrgan)
@@ -290,16 +263,19 @@ Automatic1111 Instructpix2pix (sd1.5) model (you also can download just model an
 
   
 
-![](image070.png)downloads / source / ip 2p source / webui / directx webui / model
+![](image070.png)
+
+downloads / source / ip 2p source / webui / directx webui / model
 
 \-IMAGE TO IMAGE VARIATIONS-
 ----------------------------
 
 Automatic1111 sd-unclip (sd2.1) model (there is an alternative that works without any models \- controlnet reference) \[CUDA/CPU\] \- in
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="564" height="391" src="image072.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1086"></td></tr></tbody></table>
+
+![](image072.png)
+
 
   
 downloads / [source](https://github.com/CompVis/stable-diffusion) / [webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) / [model](https://huggingface.co/stabilityai/stable-diffusion-2-1-unclip)
@@ -309,9 +285,8 @@ downloads / [source](https://github.com/CompVis/stable-diffusion) / [webui](http
 
   
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="566" height="839" src="image074.png" alt="Надпись:  
+![](image074.png)
 
-" v:shapes="_x0000_s1087"></td></tr></tbody></table>
 
   
 LEDITS webui \[CUDA/CPU\] \- in downloads / [source](https://editing-images-project.hf.space/index.html) / [webui](https://huggingface.co/spaces/editing-images/ledits)
@@ -319,12 +294,9 @@ LEDITS webui \[CUDA/CPU\] \- in downloads / [source](https://editing-images-proj
 \-OBJECT REMOVING-
 ------------------
 
-  
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="566" height="324" src="image078.png" alt="Надпись:  
+![](image078.png)
 
-" v:shapes="_x0000_s1089"></td></tr></tbody></table>
 
   
 Flowframes \[CUDA/Vulkan\] \- in downloads / [source](https://github.com/megvii-research/ECCV2022-RIFE) / [gui](https://nmkd.itch.io/flowframes)
@@ -349,11 +321,9 @@ Automatic1111 sdwebui with modelscope text2video extension with zeroscope- v2-57
 
   
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="563" height="643" src="image084.png" alt="Надпись:  
+![](image084.png)
 
-" v:shapes="_x0000_s1090"></td></tr></tbody></table>
 
-  
 online demo
 
 \-VIDEO HUMAN MATTING-
@@ -364,11 +334,8 @@ RobustVideoMatting (cli interface) \[CUDA/CPU\] \- in downloads / [source](https
 \-VIDEO ZERO-SHOT MATTING-
 --------------------------
 
-  
+![](image086.png)
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="516" height="907" src="image086.png" alt="Надпись:  
-
-" v:shapes="_x0000_s1091"></td></tr></tbody></table>
 
   
 Track-anything webui \[CPU\] \- in downloads / [webui](https://github.com/gaomingqi/Track-Anything) / [online demo](https://huggingface.co/spaces/VIPLab/Track-Anything)
@@ -376,11 +343,11 @@ Track-anything webui \[CPU\] \- in downloads / [webui](https://github.com/gaomin
 \-VIDEO FEW-SHOT MATTING VIA TRAINING-
 --------------------------------------
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="870" src="image088.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1092"></td></tr></tbody></table>
+
+![](image088.png)
+
 
   
 DeepXTools by Iperov \[CUDA\] \- [link](https://github.com/iperov/DeepXTools/releases/tag/install_win_nvidia) \- also in downloads
@@ -388,15 +355,20 @@ DeepXTools by Iperov \[CUDA\] \- [link](https://github.com/iperov/DeepXTools/rel
 \-ZERO-SHOT DEEPFAKING-
 -----------------------
 
-![](image089.png)Roop neurogen mod (Refacer model) (lightning fast, has realtime deepfake on webcam function) (the refacer model swaps faces better than simswap, but have only 128px resolution and may have more artifacts when head is on side) \[DirectX/CUDA/CPU\] - in downloads / [source](https://github.com/deepinsight/insightface/tree/master/web-demos/swapping_discord) / [webui](https://github.com/s0md3v/roop) / [mod by](https://t.me/neurogen_news)
+![](image089.png)
+
+Roop neurogen mod (Refacer model) (lightning fast, has realtime deepfake on webcam function) (the refacer model swaps faces better than simswap, but have only 128px resolution and may have more artifacts when head is on side) \[DirectX/CUDA/CPU\] - in downloads / [source](https://github.com/deepinsight/insightface/tree/master/web-demos/swapping_discord) / [webui](https://github.com/s0md3v/roop) / [mod by](https://t.me/neurogen_news)
 
   
 
-![](image089.png)Deepinsight Refacer gradio webui (replaces only certain faces, has cool face upscale feature) \[CUDA\] \- in downloads / [source](https://github.com/deepinsight/insightface/tree/master/web-demos/swapping_discord) / [webui](https://github.com/xaviviro/refacer) / [mod by](https://t.me/neurogen_news)
+![](image089.png)
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="560" height="143" src="image091.png" alt="Надпись:  
+Deepinsight Refacer gradio webui (replaces only certain faces, has cool face upscale feature) \[CUDA\] \- in downloads / [source](https://github.com/deepinsight/insightface/tree/master/web-demos/swapping_discord) / [webui](https://github.com/xaviviro/refacer) / [mod by](https://t.me/neurogen_news)
 
-" v:shapes="_x0000_s1095"></td></tr></tbody></table>
+
+
+![](image091.png)
+
 
   
 
@@ -405,16 +377,16 @@ Simswap (cli interface) \[CUDA/CPU\] \- in downloads / [source](https://github.c
 \-DEEPFAKING VIA TRAINING-
 --------------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="563" height="237" src="image093.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1096"></td></tr></tbody></table>
+![](image093.png)
+
 
   
 DeepFaceLab (cli interface) \[DirectX\]\[CUDA\] \- [link](https://mega.nz/folder/Po0nGQrA#dbbttiNWojCt8jzD4xYaPw) \- also in downloads / [source](https://github.com/iperov/DeepFaceLab)
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="566" height="401" src="image095.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1097"></td></tr></tbody></table>
+![](image095.png)
+
 
   
 DeepfaceLive \[DirectX\]\[CUDA\] \- [link](https://mega.nz/folder/m10iELBK#Y0H6BflF9C4k_clYofC7yA) \- also in downloads / [source](https://github.com/iperov/DeepFaceLive)
@@ -424,20 +396,18 @@ DeepfaceLive \[DirectX\]\[CUDA\] \- [link](https://mega.nz/folder/m10iELBK#Y0H6B
 
   
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="260" src="image097.png" alt="Надпись:  
+![](image097.png)
 
-" v:shapes="_x0000_s1098"></td></tr></tbody></table>
 
   
 wav2lip gui \[CUDA/CPU\] \- [link](https://github.com/dunnousername/Wav2Lip/releases) \- also in downloads / [source](https://github.com/Rudrabha/Wav2Lip) / [gui](https://github.com/dunnousername/Wav2Lip)
 
 \-TEXT To 3D-
 
-  
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="562" height="792" src="image099.png" alt="Надпись:  
 
-" v:shapes="_x0000_s1099"></td></tr></tbody></table>
+![](image099.png)
+
 
   
 Shap-E webui \[CUDA/CPU\] \-in downloads / [source](https://github.com/openai/shap-e) / [webui](https://huggingface.co/spaces/hysts/Shap-E)
@@ -453,7 +423,8 @@ Point-E webui \[this model is legacy\]\[CUDA/CPU\] (results are worse than shap-
 \-NEURAL RADIANCE FIELDS GENERATION BY IMAGES-
 ----------------------------------------------
 
-<table><tbody><tr><td></td></tr><tr><td></td><td><img width="567" height="411" src="image103.png" v:shapes="_x0000_s1100 _x0000_s1101"></td></tr></tbody></table>
+
+![](image103.png)
 
   
 nerfstudio (nerfacto) \[CUDA\] \- in downloads / [source](https://github.com/nerfstudio-project/nerfstudio)
