@@ -83,13 +83,14 @@ cactus - кактусы (враги)
 
 ### Создайте персонажа, добавив несколько стилей к символу div.
 
-    #character {
+    #dino {
         width: 20px;
         height: 50px;
         background-color: red;
     }
 
-![Стиль для динозаврика](image-8.png)
+
+![Стиль для динозаврика](image-15.png)
 
 ![Пока он низкополигональный](image-9.png)
 
@@ -98,6 +99,86 @@ cactus - кактусы (враги)
     position: relative;
     top: 150px;
 
-![Alt text](image-10.png)
+![Alt text](image-16.png)
 
 ![Alt text](image-11.png)
+
+Блок игры имеет высоту 200 пикселей, а наш персонаж - 50 пикселей, поэтому нам нужно опустить его на 150 пикселей, чтобы поместить в самый низ.
+
+### Кактусы...
+
+    #cactus{
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: relative;
+        top: 130px;
+        left: 480px;
+    }
+
+![Alt text](image-17.png)
+
+На этот раз мы сдвигаем его до упора вправо.
+
+    ПОЛОЖЕНИЕ КАКТУСА = ШИРИНА ИГРЫ - ШИРИКА КАКТУСА
+    480px = 500px - 20px
+
+![Alt text](image-13.png)
+
+## Добавляем анимацию кактусу
+
+Чтобы наш кактус скользил по направлению к блоку, мы создаем анимацию и добавляем ее в блок.
+
+    #cactus{
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: relative;
+        top: 130px;
+        left: 480px;
+
+        
+        animation: cactus 1s;
+    }
+
+    @keyframes cactus {
+        0%{left:480px;}
+        100%{left:-40px;}
+    }
+
+
+![Alt text](image-18.png)
+
+### Бесконечная анимация
+
+Чтобы анимация повторялась, мы добавляем бесконечность в анимацию
+
+    animation: cactus 1s infinite;
+
+![Alt text](1_sLC6uUoRTuMvBKmLw-UFHw.gif)
+
+### Линейная анимация
+
+    animation: cactus 1s infinite linear;
+
+## Добавляем анимацию динозавру
+
+Теперь для прыжков, мы создадим вторую анимацию, в которой мы заставляем динозавра прыгать наверх.
+
+Ставим 30 и 70%. Это заставляет его подпрыгивать вверх, немного зависать, а затем снова опускаться.
+
+    @keyframes jump{
+        0%{top: 150px;}
+        30%{top: 100px;}
+        70%{top: 100px;}
+        100%{top: 150px;}
+    }
+
+![Alt text](image-19.png)
+
+Так же, как и в случае с кактусом, мы добавляем анимацию к нашему динозавру.
+
+    animation: jump 500ms infinite;
+
+![Alt text](image-20.png)
+
