@@ -61,8 +61,11 @@ tags:
 Внутри game находятся два объекта - dino и cactus
 
 game - фон игры
+
 dino - динозаврик (главный управляемый персонаж)
+
 cactus - кактусы (враги)
+
 
 ![Alt text](image-4.png)
 
@@ -181,4 +184,52 @@ cactus - кактусы (враги)
     animation: jump 500ms infinite;
 
 ![Alt text](image-20.png)
+
+![Alt text](1_uJz92hZHGQJO4e-4rWEvGA.gif)
+
+## Управляем динозавром
+
+Мы хотим, чтобы он прыгал, когда мы вызываем функцию JavaScript, которую мы собираемся создать.
+
+### Удаление анимации
+
+Для этого надо удалить анимацию прыжка у динозавра, чтобы он не прыгал сам по себе:
+
+![Alt text](image-21.png)
+![Alt text](image-22.png)
+
+### Создание класса анимации
+
+    .animate{
+        animation: jump 500ms;
+    }
+
+![Alt text](image-23.png)
+
+### Пишем JavaScript код
+
+Мы начинаем с создания двух переменных для доступа к нашему динозавру и кактусу.
+
+В файле script.js:
+
+    let character = document.getElementById("dino")
+    let block = document.getElementById("cactus")
+
+![Alt text](image-24.png)
+
+Создадим функцию прыжка:
+
+    function jump() {
+        character.classList.add("animate")
+    }
+
+![Alt text](image-25.png)
+
+Чтобы запустить нашу функцию, нам нужно добавить onClick в наш index.html (HTML-файл).
+
+    <html lang="en" onclick = "jump()">
+
+![Alt text](image-26.png)
+
+### Почему он прыгает всего один раз?
 
