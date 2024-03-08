@@ -256,3 +256,70 @@ cactus - кактусы (враги)
 
 ![Alt text](image-27.png)
 
+
+## Игровая логика
+
+Создадим функцию проверки столкновения динозавра с кактусом:
+
+    var checkDead = setInterval(function(){
+
+    },10)
+
+![Alt text](image-28.png)
+
+### Где находится динозавр?
+
+Находим положение динозавра
+
+    var checkDead = setInterval(function(){
+        var dinoTop = parseInt(
+            window.getComputedStyle(character).getPropertyValue("top")
+        )
+        console.log(dinoTop);
+    },10)
+
+
+![Alt text](image-29.png)
+
+В консоли браузера видим положение в пикселях
+
+![Alt text](image-30.png)
+
+
+Другими словами: функция проверяет, находится ли динозавр вверху или внизу.
+
+### Где находится кактус?
+
+    var checkDead = setInterval(function(){
+        var dinoTop = parseInt(
+            window.getComputedStyle(character).getPropertyValue("top")
+        )
+        console.log("dinoTop = " + dinoTop);
+
+        var cactusLeft = parseInt(
+            window.getComputedStyle(block).getPropertyValue("left")
+        )
+        console.log("cactusLeft = " + cactusLeft);
+    },10)
+
+![Alt text](image-32.png)
+
+![Alt text](image-31.png)
+
+### Проверяем столкновение
+
+Если cactusLeft меньше 20 и больше нуля,
+и над персонажем есть пространство более 130 пикселей (что означает, что он не прыгал), то игрок проигрывает.
+
+    if(cactusLeft < 20 && cactusLeft > 0 && dinoTop >= 130){
+        alert("caught");
+    }
+
+Мы также хотим убрать анимацию кактуса, чтобы он не продолжался после того, как игрок проиграл.
+
+    if(cactusLeft < 20 && cactusLeft > 0 && dinoTop >= 130){
+        cactus.style.animation = "none";
+        alert("caught");
+    }
+
+![Alt text](image-33.png)
