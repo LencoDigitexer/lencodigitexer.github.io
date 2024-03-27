@@ -154,8 +154,6 @@ cactus - кактусы (враги)
 
     animation: cactus 1s infinite;
 
-![Alt text](1_sLC6uUoRTuMvBKmLw-UFHw.gif)
-
 ### Линейная анимация
 
     animation: cactus 1s infinite linear;
