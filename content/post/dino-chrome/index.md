@@ -69,7 +69,6 @@ cactus - кактусы (враги)
 
 ![Alt text](image-4.png)
 
-
 ## Оденем динозавра, покрасим кактусы и поклеим обои - style.css
 
 ### Определим окно игры (класс game)
@@ -126,3 +125,37 @@ cactus - кактусы (враги)
     480px = 500px - 20px
 
 ![Alt text](image-13.png)
+
+## Добавляем анимацию кактусу
+
+Чтобы наш кактус скользил по направлению к блоку, мы создаем анимацию и добавляем ее в блок.
+
+    #cactus{
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: relative;
+        top: 130px;
+        left: 480px;
+
+        animation: cactus 1s;
+    }
+
+    @keyframes cactus {
+        0%{left:480px;}
+        100%{left:-40px;}
+    }
+
+![Alt text](image-18.png)
+
+### Бесконечная анимация
+
+Чтобы анимация повторялась, мы добавляем бесконечность в анимацию
+
+    animation: cactus 1s infinite;
+
+![Alt text](1_sLC6uUoRTuMvBKmLw-UFHw.gif)
+
+### Линейная анимация
+
+    animation: cactus 1s infinite linear;
