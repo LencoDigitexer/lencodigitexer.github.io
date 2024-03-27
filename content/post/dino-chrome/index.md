@@ -179,7 +179,6 @@ cactus - кактусы (враги)
 
 ![Alt text](image-20.png)
 
-![Alt text](1_uJz92hZHGQJO4e-4rWEvGA.gif)
 
 ## Управляем динозавром
 
